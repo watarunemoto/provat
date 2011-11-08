@@ -1,0 +1,353 @@
+<interaction_set>
+
+<!-- interaction name means a common name, type means what sort of geometry shd be checked-->
+<!-- group type is either A or D, must be marked to avoid detection of AA or DD spurious detections-->
+
+<!-- ***************************DHR start********************************** -->
+<!-- pi hydrogen bond CaH..pi -->
+<interaction name="CaHpi" type="DHR">
+<group AD="D" res="AA"><atom tag="D" atn=" CA "></atom></group>
+<group AD="A" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" NE1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom></group>
+<lim tag1="D" tag2="Am" min="2" max="4.3"></lim>
+<lim tag1="H" tag2="Am" min="2" max="3.8"></lim>
+<lim tag1="D" tag2="H" tag3="Am" min="120" max="180"></lim>
+<lim tag1="D" tag2="Am" tag3="An" min="0" max="30"></lim>
+</interaction>
+
+<!-- pi hydrogen bond NH..pi -->
+<interaction name="NHpi" type="DHR">
+<group AD="D" res="AA"><atom tag="D" atn=" N  "></atom></group>
+<group AD="A" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" NE1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom></group>
+<lim tag1="D" tag2="Am" min="2" max="4.3"></lim>
+<lim tag1="H" tag2="Am" min="2" max="3.5"></lim>
+<lim tag1="D" tag2="H" tag3="Am" min="120" max="180"></lim>
+<lim tag1="D" tag2="Am" tag3="An" min="0" max="30"></lim>
+</interaction>
+
+
+<!-- cation-pi -->
+<interaction name="cationPi" type="DHR">
+<group AD="D" res="LYS"><atom tag="D" atn=" NZ "></atom></group>
+<group AD="D" res="ARG"><atom tag="D" atn=" NH1"></atom></group>
+<group AD="D" res="ARG"><atom tag="D" atn=" NH2"></atom></group>
+<group AD="D" res="ARG"><atom tag="D" atn=" NE "></atom></group>
+<group AD="A" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" NE1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom></group>
+<lim tag1="D" tag2="Am" min="2" max="4.0"></lim>
+<lim tag1="H" tag2="Am" min="2" max="3.8"></lim>
+<lim tag1="D" tag2="H" tag3="Am" min="10" max="180"></lim>
+<lim tag1="D" tag2="Am" tag3="An" min="0" max="30"></lim>
+</interaction>
+
+<!-- cysteine - pi -->
+<interaction name="thiolPi" type="DHR">
+<group AD="D" res="CYS"><atom tag="D" atn=" SG "></atom></group>
+<group AD="A" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" NE1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom></group>
+<lim tag1="D" tag2="Am" min="2" max="4.0"></lim>
+<lim tag1="D" tag2="Am" tag3="An" min="0" max="30"></lim>
+</interaction>
+
+<!-- sidechain-OH - pi -->
+<interaction name="hydroPi" type="DHR">
+<group AD="D" res="SER"><atom tag="D" atn=" OG "></atom></group>
+<group AD="D" res="THR"><atom tag="D" atn=" OG1"></atom></group>
+<group AD="D" res="TYR"><atom tag="D" atn=" OH "></atom></group>
+<group AD="A" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" NE1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom></group>
+<lim tag1="D" tag2="Am" min="2" max="3.8"></lim>
+<lim tag1="D" tag2="Am" tag3="An" min="0" max="30"></lim>
+</interaction>
+
+<!-- Pro-Cd - pi -->
+<interaction name="proCdPi" type="DHR">
+<group AD="D" res="PRO"><atom tag="D" atn=" CD "></atom></group>
+<group AD="A" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" NE1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom></group>
+<lim tag1="D" tag2="Am" min="2" max="4.3"></lim>
+<lim tag1="H" tag2="Am" min="2" max="3.8"></lim>
+<lim tag1="D" tag2="H" tag3="Am" min="120" max="180"></lim>
+<lim tag1="D" tag2="Am" tag3="An" min="0" max="35"></lim>
+</interaction>
+<!-- ***************************DHR end************************************ -->
+
+<!-- ****************************RR start********************************** -->
+<!-- pi-pi stacking -->
+<interaction name="pipi" type="RR">
+<group AD="D" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="D" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="D" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<group AD="A" res="PHE"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TYR"><atom tag="R" atn=" CG "></atom><atom tag="R" atn=" CD1"></atom><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE1"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CZ "></atom></group>
+<group AD="A" res="TRP"><atom tag="R" atn=" CD2"></atom><atom tag="R" atn=" CE2"></atom><atom tag="R" atn=" CE3"></atom><atom tag="R" atn=" CZ2"></atom><atom tag="R" atn=" CZ3"></atom><atom tag="R" atn=" CH2"></atom></group>
+<lim tag1="Dm" tag2="Am" min="2" max="7"></lim>
+</interaction>
+<!-- ****************************RR end************************************ -->
+
+<!-- ****************************DHAB start********************************** -->
+<!-- simple hydrogen bond NH..OC -->
+<interaction name="hbond" type="DHAB">
+<group AD="D" res="AA"><atom tag="D" atn=" N  "></atom></group>
+<group AD="A" res="AA"><atom tag="A" atn=" O  "></atom><atom tag="B" atn=" C  "></atom></group>
+<lim tag1="D" tag2="A" min="2" max="4.0"></lim>
+<lim tag1="H" tag2="A" min="2" max="3.8"></lim>
+<lim tag1="D" tag2="H" tag3="A" min="120" max="180"></lim>
+<lim tag1="H" tag2="A" tag3="B" min="120" max="180"></lim>
+<lim tag1="D" tag2="H" tag3="A" tag4="B" min="-180" max="180"></lim>
+</interaction>
+
+<!-- hydrogen bond CaH..OC -->
+<interaction name="CaHbond" type="DHAB">
+<group AD="D" res="AA"><atom tag="D" atn=" CA "></atom></group>
+<group AD="A" res="AA"><atom tag="A" atn=" O  "></atom><atom tag="B" atn=" C  "></atom></group>
+<lim tag1="D" tag2="A" min="2" max="3.8"></lim>
+<lim tag1="H" tag2="A" min="2" max="3.3"></lim>
+<lim tag1="D" tag2="H" tag3="A" min="120" max="180"></lim>
+<lim tag1="H" tag2="A" tag3="B" min="90" max="180"></lim>
+<lim tag1="D" tag2="H" tag3="A" tag4="B" min="-180" max="180"></lim>
+</interaction>
+
+
+<!-- ****************************DHAB end************************************ -->
+
+<!-- salt bridges -->
+<interaction name="saltBridge" type="DHAB">
+<group AD="D" res="HIS"><atom tag="D" atn=" NE2"></atom></group>
+<group AD="D" res="HIS"><atom tag="D" atn=" ND1"></atom></group>
+<group AD="D" res="LYS"><atom tag="D" atn=" NE "></atom></group>
+<group AD="D" res="ARG"><atom tag="D" atn=" NE "></atom></group>
+<group AD="D" res="ARG"><atom tag="D" atn=" NH1"></atom></group>
+<group AD="D" res="ARG"><atom tag="D" atn=" NH2"></atom></group>
+<group AD="A" res="ASP"><atom tag="A" atn=" OD1"></atom></group>
+<group AD="A" res="ASP"><atom tag="A" atn=" OD2"></atom></group>
+<group AD="A" res="GLU"><atom tag="A" atn=" OE1"></atom></group>
+<group AD="A" res="GLU"><atom tag="A" atn=" OE2"></atom></group>
+<lim tag1="D" tag2="A" min="0" max="5.0"></lim>
+</interaction>
+<!-- hydrophobic -->
+<interaction name="hydrophobic" type="contact">
+<group AD="D" res="PHE">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+</group>
+<group AD="D" res="TYR">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+</group>
+<group AD="D" res="TRP">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+</group>
+<group AD="D" res="GLY">
+<atom tag="D" atn=" CA "></atom>
+</group>
+<group AD="D" res="ALA">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+</group>
+<group AD="D" res="VAL">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG1"></atom>
+<atom tag="D" atn=" CG2"></atom>
+</group>
+<group AD="D" res="LEU">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+<atom tag="D" atn=" CD1"></atom>
+<atom tag="D" atn=" CD2"></atom>
+</group>
+<group AD="D" res="ILE">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG1"></atom>
+<atom tag="D" atn=" CG2"></atom>
+<atom tag="D" atn=" CD1"></atom>
+</group>
+<group AD="D" res="PRO">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+</group>
+<group AD="D" res="ASP">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+</group>
+<group AD="D" res="GLU">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+<atom tag="D" atn=" CD "></atom>
+</group>
+<group AD="D" res="HIS">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+</group>
+<group AD="D" res="LYS">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+<atom tag="D" atn=" CD "></atom>
+<atom tag="D" atn=" CE "></atom>
+</group>
+<group AD="D" res="ARG">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+<atom tag="D" atn=" CD "></atom>
+</group>
+<group AD="D" res="CYS">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+</group>
+<group AD="D" res="MET">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+<atom tag="D" atn=" CE "></atom>
+</group>
+<group AD="D" res="SER">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+</group>
+<group AD="D" res="THR">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG2"></atom>
+</group>
+<group AD="D" res="ASN">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+</group>
+<group AD="D" res="GLN">
+<atom tag="D" atn=" CA "></atom>
+<atom tag="D" atn=" CB "></atom>
+<atom tag="D" atn=" CG "></atom>
+<atom tag="D" atn=" CD "></atom>
+</group>
+
+
+
+<group AD="A" res="PHE">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+</group>
+<group AD="A" res="TYR">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+</group>
+<group AD="A" res="TRP">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+</group>
+<group AD="A" res="GLY">
+<atom tag="A" atn=" CA "></atom>
+</group>
+<group AD="A" res="ALA">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+</group>
+<group AD="A" res="VAL">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG1"></atom>
+<atom tag="A" atn=" CG2"></atom>
+</group>
+<group AD="A" res="LEU">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+<atom tag="A" atn=" CD1"></atom>
+<atom tag="A" atn=" CD2"></atom>
+</group>
+<group AD="A" res="ILE">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG1"></atom>
+<atom tag="A" atn=" CG2"></atom>
+<atom tag="A" atn=" CD1"></atom>
+</group>
+<group AD="A" res="PRO">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+</group>
+<group AD="A" res="ASP">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+</group>
+<group AD="A" res="GLU">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+<atom tag="A" atn=" CD "></atom>
+</group>
+<group AD="A" res="HIS">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+</group>
+<group AD="A" res="LYS">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+<atom tag="A" atn=" CD "></atom>
+<atom tag="A" atn=" CE "></atom>
+</group>
+<group AD="A" res="ARG">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+<atom tag="A" atn=" CD "></atom>
+</group>
+<group AD="A" res="CYS">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+</group>
+<group AD="A" res="MET">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+<atom tag="A" atn=" CE "></atom>
+</group>
+<group AD="A" res="SER">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+</group>
+<group AD="A" res="THR">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG2"></atom>
+</group>
+<group AD="A" res="ASN">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+</group>
+<group AD="A" res="GLN">
+<atom tag="A" atn=" CA "></atom>
+<atom tag="A" atn=" CB "></atom>
+<atom tag="A" atn=" CG "></atom>
+<atom tag="A" atn=" CD "></atom>
+</group>
+
+
+</interaction>
+</interaction_set>

@@ -1,0 +1,61 @@
+<hr>
+<h1>Welcome to Provat</h1>
+We are grateful for your interest in this software.
+<hr>
+
+<h2>Intro</h2>
+<ul>
+<li>Provat is a tool for Voronoi tessellation analysis of macromolecules.</li>
+<li>It uses Qhull program to calculate tessellations and (optionally) Groamcs to solvate the system. A faster solvation method is also available.</li>
+<li>Provat brings flexibility and easy visualization to macromolecular tessellation.</li>
+<li>There are various ways to group atoms and define metasites. There are various datastyles to output the interfaces.</li>
+<li>A PyMOL plugin provides a convenient way to visualize the output.</li>
+</ul>
+<hr>
+
+<h2>Note</h2>
+Due to a nasty hardware problem, the original Provat website was lost, but not the code fortunately. We are working towards restoring the site. Please make do with this page in the meantime.
+<hr>
+
+<h2>Download and usage</h2>
+<ul>
+
+<li>
+Dependencies
+<ul>
+<li><a href=http://www.qhull.org>Qhull</a></li>
+<li><a href=http://www.python.org>Python</a> (>=2.4)</li>
+<li><a href=http://www.gromacs.org>Gromacs</a> for sophisticated solvation (optional)<br>
+<li><a href=http://www.gromacs.org>Scwrl3</a> for fixing missing sidechains (optional)<br>
+</ul>
+</li>
+
+<li>
+Important : Provat comes with absolutely no warranty, express or implied. Use at your own risk.<br>
+</li>
+<li>
+Important : Provat is free for download and use for academics and only for academic use. All commercial users should contact us before use.
+</li>
+
+<li>Download <a href=provatDistrib>here</a>.</li>
+
+<li>Usage
+<ul>
+<li>Unzip the downloaded archive (tar xvzf) and set PROVATPATH to resulting directory.</li>
+<li>Setting PROVATPATH environment variable is necessary for tessellation and visualization.</li>
+<li>python $PROVATPATH/vorRun.py --help lists the available options. This should give a fair idea of how to run the program. $PROVATPATH/DEMO contains some examples (see cmd files for typical commandlines). A Provat command yields a .data file containing textual output describing polyhedra generated due to tessellation and a .pkl file used for visualization.</li>
+<li>$PROVATPATH/provat_plugin.py is the pymol plugin which helps visualize the tessellation output (.pkl file) in Pymol. Plugin interface, we believe, is pretty self-explanatory. Plugin should be installed in Pymol with the usual procedure. If the 'usual procedure' doesnt work, use : cp $PROVATPATH/provat_plugin.py <your-pymol-installation>/modules/pmg_tk/startup/.</li>
+</ul>
+</li>
+
+</ul>
+<hr>
+
+<h2>Publication</h2>
+Please cite the following if you use Provat in your work :<br>
+<a href=http://bioinformatics.oxfordjournals.org/cgi/content/full/21/15/3316>
+Swanand P. Gore, David F. Burke and Tom L. Blundell,
+PROVAT: a tool for Voronoi tessellation analysis of protein structures and complexes,
+Bioinformatics 2005 21(15):3316-3317.
+</a>
+<hr>
