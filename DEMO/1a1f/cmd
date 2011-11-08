@@ -1,4 +1,3 @@
-
 python $PROVATPATH/vorRun.py \
   --pdbin $PROVATPATH/DEMO/1a1f/1a1f.pdb \
   --scratchdir $PROVATPATH/DEMO/1a1f/scratch \
