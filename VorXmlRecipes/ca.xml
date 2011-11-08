@@ -1,0 +1,20 @@
+
+<provat>
+
+<metasite>
+<name>CA</name>
+<style>atomic</style>
+<physchem>CA</physchem>
+<restype>AA</restype>
+<slaveatom> CA </slaveatom>
+</metasite>
+
+<metasite>
+<name>HOH</name>
+<style>centroid</style>
+<physchem>HOH</physchem>
+<restype>HOH</restype>
+<slaveatom> OW </slaveatom>
+</metasite>
+
+</provat>

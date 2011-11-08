@@ -1,0 +1,364 @@
+
+<provat>
+
+
+<metasite>
+<name>phos</name>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>NU</restype>
+<slaveatom>all_phosphate_atoms</slaveatom>
+</metasite>
+
+<metasite>
+<name>sugar</name>
+<style>atomic</style>
+<physchem>sugar</physchem>
+<restype>NU</restype>
+<slaveatom>all_sugar_atoms</slaveatom>
+</metasite>
+
+<metasite>
+<name>base</name>
+<style>atomic</style>
+<physchem>base</physchem>
+<restype>NU</restype>
+<slaveatom>all_base_atoms</slaveatom>
+</metasite>
+
+<metasite>
+<name>mcO</name>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>AA</restype>
+<slaveatom> C  </slaveatom>
+<slaveatom> O  </slaveatom>
+</metasite>
+
+<metasite>
+<name>mcN</name>
+<style>atomic</style>
+<physchem>pos</physchem>
+<restype>AA</restype>
+<slaveatom> N  </slaveatom>
+</metasite>
+
+<metasite>
+<name>HOH</name>
+<style>centroid</style>
+<physchem>HOH</physchem>
+<restype>HOH</restype>
+<slaveatom> OW </slaveatom>
+</metasite>
+
+<metasite>
+<name>het</name>
+<style>atomic</style>
+<physchem>het</physchem>
+<restype>all_nonHOH_nonAA_nonNU</restype>
+<slaveatom>all_atoms_of_the_residue</slaveatom>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>PHE</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>TYR</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>TRP</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>GLY</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>ALA</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG1</slaveatom><slaveatom> CG2</slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>VAL</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom><slaveatom> CD1</slaveatom><slaveatom> CD2</slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>LEU</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG1</slaveatom><slaveatom> CG2</slaveatom><slaveatom> CD1</slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>ILE</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom><slaveatom> CD </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>PRO</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>ASP</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>GLU</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>HIS</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom><slaveatom> CD </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>LYS</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>ARG</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>CYS</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>MET</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>SER</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG2</slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>THR</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>ASN</restype>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>atomic</style>
+<physchem>phob</physchem>
+<restype>GLN</restype>
+</metasite>
+
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> CD1</slaveatom><slaveatom> CD2</slaveatom><slaveatom> CE1</slaveatom><slaveatom> CE2</slaveatom><slaveatom> CZ </slaveatom>
+<style>atomic</style>
+<physchem>arom</physchem>
+<restype>PHE</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> CD1</slaveatom><slaveatom> CD2</slaveatom><slaveatom> CE1</slaveatom><slaveatom> CE2</slaveatom><slaveatom> CZ </slaveatom>
+<style>atomic</style>
+<physchem>arom</physchem>
+<restype>TYR</restype>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> OH </slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>TYR</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD2</slaveatom><slaveatom> CE2</slaveatom><slaveatom> CE3</slaveatom><slaveatom> CZ2</slaveatom><slaveatom> CZ3</slaveatom><slaveatom> CH2</slaveatom>
+<style>atomic</style>
+<physchem>arom</physchem>
+<restype>TRP</restype>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> CD1</slaveatom><slaveatom> NE1</slaveatom>
+<style>atomic</style>
+<physchem>pos</physchem>
+<restype>TRP</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> OD1</slaveatom><slaveatom> OD2</slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>ASP</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD </slaveatom><slaveatom> OE1</slaveatom><slaveatom> OE2</slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>GLU</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> ND1</slaveatom><slaveatom> CD2</slaveatom><slaveatom> CE1</slaveatom><slaveatom> NE2</slaveatom>
+<style>atomic</style>
+<physchem>pos</physchem>
+<restype>HIS</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CE </slaveatom><slaveatom> NZ </slaveatom>
+<style>atomic</style>
+<physchem>pos</physchem>
+<restype>LYS</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD </slaveatom><slaveatom> NE </slaveatom><slaveatom> CZ </slaveatom><slaveatom> NH1</slaveatom><slaveatom> NH2</slaveatom>
+<style>atomic</style>
+<physchem>pos</physchem>
+<restype>ARG</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> SG </slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>CYS</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> SD </slaveatom><slaveatom> CE </slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>MET</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> OG </slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>SER</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> OG1</slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>THR</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> OD1</slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>ASN</restype>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> ND2</slaveatom>
+<style>atomic</style>
+<physchem>pos</physchem>
+<restype>ASN</restype>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD </slaveatom><slaveatom> OE1</slaveatom>
+<style>atomic</style>
+<physchem>neg</physchem>
+<restype>GLN</restype>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> NE2</slaveatom>
+<style>atomic</style>
+<physchem>pos</physchem>
+<restype>GLN</restype>
+</metasite>
+
+
+</provat>

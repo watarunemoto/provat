@@ -1,0 +1,409 @@
+
+<provat>
+
+
+<metasite>
+<name>phos</name>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>NU</restype>
+<slaveatom>all_phosphate_atoms</slaveatom>
+<frA></frA><frB></frB><frC></frC>
+</metasite>
+
+<metasite>
+<name>sugar</name>
+<style>centroid</style>
+<physchem>sugar</physchem>
+<restype>NU</restype>
+<slaveatom>all_sugar_atoms</slaveatom>
+<frA></frA><frB></frB><frC></frC>
+</metasite>
+
+<metasite>
+<name>base</name>
+<style>centroid</style>
+<physchem>base</physchem>
+<restype>NU</restype>
+<slaveatom>all_base_atoms</slaveatom>
+<frA></frA><frB></frB><frC></frC>
+</metasite>
+
+<metasite>
+<name>mcO</name>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>AA</restype>
+<slaveatom> C  </slaveatom>
+<slaveatom> O  </slaveatom>
+<frA> CA </frA><frB> C  </frB><frC> O  </frC>
+</metasite>
+
+<metasite>
+<name>mcN</name>
+<style>centroid</style>
+<physchem>pos</physchem>
+<restype>AA</restype>
+<slaveatom> N  </slaveatom>
+<frA> C  </frA><frB> CA </frB><frC> N  </frC>
+</metasite>
+
+<metasite>
+<name>HOH</name>
+<style>centroid</style>
+<physchem>HOH</physchem>
+<restype>HOH</restype>
+<slaveatom> OW </slaveatom>
+<frA></frA><frB></frB><frC></frC>
+</metasite>
+
+<metasite>
+<name>het</name>
+<style>centroid</style>
+<physchem>het</physchem>
+<restype>all_nonHOH_nonAA_nonNU</restype>
+<slaveatom>all_atoms_of_the_residue</slaveatom>
+<frA></frA><frB></frB><frC></frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>PHE</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>TYR</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>TRP</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>GLY</restype>
+<frA> N  </frA><frB> CA </frB><frC> C  </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>ALA</restype>
+<frA> N  </frA><frB> CA </frB><frC> C  </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG1</slaveatom><slaveatom> CG2</slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>VAL</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG1</frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom><slaveatom> CD1</slaveatom><slaveatom> CD2</slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>LEU</restype>
+<frA> CB </frA><frB> CG </frB><frC> CD1</frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG1</slaveatom><slaveatom> CG2</slaveatom><slaveatom> CD1</slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>ILE</restype>
+<frA> CB </frA><frB> CG1</frB><frC> CG2</frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom><slaveatom> CD </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>PRO</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>ASP</restype>
+<frA> N  </frA><frB> CA </frB><frC> CB </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>GLU</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>HIS</restype>
+<frA> N  </frA><frB> CA </frB><frC> CB </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom><slaveatom> CD </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>LYS</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>ARG</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>CYS</restype>
+<frA> N  </frA><frB> CA </frB><frC> CB </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>MET</restype>
+<frA> N  </frA><frB> CA </frB><frC> CB </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>SER</restype>
+<frA> N  </frA><frB> CA </frB><frC> CB </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG2</slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>THR</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG2</frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>ASN</restype>
+<frA> N  </frA><frB> CA </frB><frC> CB </frC>
+</metasite>
+
+<metasite>
+<name>ali</name>
+<slaveatom> CA </slaveatom><slaveatom> CB </slaveatom><slaveatom> CG </slaveatom>
+<style>centroid</style>
+<physchem>phob</physchem>
+<restype>GLN</restype>
+<frA> CA </frA><frB> CB </frB><frC> CG </frC>
+</metasite>
+
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> CD1</slaveatom><slaveatom> CD2</slaveatom><slaveatom> CE1</slaveatom><slaveatom> CE2</slaveatom><slaveatom> CZ </slaveatom>
+<style>centroid</style>
+<physchem>arom</physchem>
+<restype>PHE</restype>
+<frA> CG </frA><frB> CD1</frB><frC> CD2</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> CD1</slaveatom><slaveatom> CD2</slaveatom><slaveatom> CE1</slaveatom><slaveatom> CE2</slaveatom><slaveatom> CZ </slaveatom>
+<style>centroid</style>
+<physchem>arom</physchem>
+<restype>TYR</restype>
+<frA> CG </frA><frB> CD1</frB><frC> CD2</frC>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> OH </slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>TYR</restype>
+<frA> CE1</frA><frB> CZ </frB><frC> OH </frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD2</slaveatom><slaveatom> CE2</slaveatom><slaveatom> CE3</slaveatom><slaveatom> CZ2</slaveatom><slaveatom> CZ3</slaveatom><slaveatom> CH2</slaveatom>
+<style>centroid</style>
+<physchem>arom</physchem>
+<restype>TRP</restype>
+<frA> CD2</frA><frB> CE2</frB><frC> CZ2</frC>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> CD1</slaveatom><slaveatom> NE1</slaveatom>
+<style>centroid</style>
+<physchem>pos</physchem>
+<restype>TRP</restype>
+<frA> CG </frA><frB> CD1</frB><frC> NE1</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> OD1</slaveatom><slaveatom> OD2</slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>ASP</restype>
+<frA> CG </frA><frB> OD1</frB><frC> OD2</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD </slaveatom><slaveatom> OE1</slaveatom><slaveatom> OE2</slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>GLU</restype>
+<frA> CD </frA><frB> OE1</frB><frC> OE2</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> ND1</slaveatom><slaveatom> CD2</slaveatom><slaveatom> CE1</slaveatom><slaveatom> NE2</slaveatom>
+<style>centroid</style>
+<physchem>pos</physchem>
+<restype>HIS</restype>
+<frA> ND1</frA><frB> CG </frB><frC> CD2</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CE </slaveatom><slaveatom> NZ </slaveatom>
+<style>centroid</style>
+<physchem>pos</physchem>
+<restype>LYS</restype>
+<frA> CD </frA><frB> CE </frB><frC> NZ </frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD </slaveatom><slaveatom> NE </slaveatom><slaveatom> CZ </slaveatom><slaveatom> NH1</slaveatom><slaveatom> NH2</slaveatom>
+<style>centroid</style>
+<physchem>pos</physchem>
+<restype>ARG</restype>
+<frA> NE </frA><frB> CZ </frB><frC> NH1</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> SG </slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>CYS</restype>
+<frA> CA </frA><frB> CB </frB><frC> SG </frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> SD </slaveatom><slaveatom> CE </slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>MET</restype>
+<frA> CG </frA><frB> SD </frB><frC> CE </frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> OG </slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>SER</restype>
+<frA> CA </frA><frB> CB </frB><frC> OG </frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> OG1</slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>THR</restype>
+<frA> CA </frA><frB> CB </frB><frC> OG1</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CG </slaveatom><slaveatom> OD1</slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>ASN</restype>
+<frA> CB </frA><frB> CG </frB><frC> OD1</frC>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> ND2</slaveatom>
+<style>centroid</style>
+<physchem>pos</physchem>
+<restype>ASN</restype>
+<frA> CB </frA><frB> CG </frB><frC> ND2</frC>
+</metasite>
+
+<metasite>
+<name>sc</name>
+<slaveatom> CD </slaveatom><slaveatom> OE1</slaveatom>
+<style>centroid</style>
+<physchem>neg</physchem>
+<restype>GLN</restype>
+<frA> CG </frA><frB> CD </frB><frC> OE1</frC>
+</metasite>
+<metasite>
+<name>sc1</name>
+<slaveatom> NE2</slaveatom>
+<style>centroid</style>
+<physchem>pos</physchem>
+<restype>GLN</restype>
+<frA> CG </frA><frB> CD </frB><frC> NE2</frC>
+</metasite>
+
+
+</provat>
