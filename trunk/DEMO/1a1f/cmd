@@ -1,0 +1,22 @@
+
+python $PROVATPATH/vorRun.py \
+  --pdbin $PROVATPATH/DEMO/1a1f/1a1f.pdb \
+  --scratchdir $PROVATPATH/DEMO/1a1f/scratch \
+  --recipe $PROVATPATH/VorXmlRecipes/protDNAspec.xml \
+  --datastyle all_physchem \
+  --checkSCmissing repair \
+  --checkMCmissing yes \
+  --checkMCcont yes \
+  --ignore-covbonded yes \
+  --read-het yes \
+  --read-hoh yes \
+  --useGMXsolv no \
+  --emmdp $PROVATPATH/Gromacs/em.mdp \
+  --prmdp $PROVATPATH/Gromacs/pr.mdp \
+  --spcgro $PROVATPATH/Gromacs/spc216.gro \
+  --water-thickness 10 \
+  --em-time 1 \
+  --pr-time 1 \
+  --gridDpl 4 \
+  --gridDll 3 \
+  --calcVols no

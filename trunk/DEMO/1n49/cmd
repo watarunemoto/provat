@@ -1,0 +1,21 @@
+python $PROVATPATH/vorRun.py \
+  --pdbin $PROVATPATH/DEMO/1n49/1n49.pdb \
+  --scratchdir $PROVATPATH/DEMO/1n49/scratch \
+  --recipe $PROVATPATH/VorXmlRecipes/posneg.xml \
+  --datastyle all_nbr \
+  --checkSCmissing repair \
+  --checkMCmissing yes \
+  --checkMCcont yes \
+  --ignore-covbonded yes \
+  --read-het yes \
+  --read-hoh yes \
+  --useGMXsolv no \
+  --emmdp $PROVATPATH/Gromacs/em.mdp \
+  --prmdp $PROVATPATH/Gromacs/pr.mdp \
+  --spcgro $PROVATPATH/Gromacs/spc216.gro \
+  --water-thickness 10 \
+  --em-time 1 \
+  --pr-time 1 \
+  --gridDpl 4 \
+  --gridDll 3 \
+  --calcVols yes
