@@ -1,0 +1,2 @@
+This project is for creating tessellations based on macromolecular coordinates at various levels of granularity. There is a pymol plugin too for visualizing the result. This was published in:
+Swanand Gore
